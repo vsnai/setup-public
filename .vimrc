@@ -9,7 +9,7 @@ let mapleader = ","
 
 " Visuals
 syntax enable
-colorscheme atom-dark
+colorscheme atom-dark-256
 set guifont=Fira_Code:h13
 set linespace=15
 hi LineNr guibg=bg
