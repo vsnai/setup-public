@@ -7,4 +7,5 @@ mkdir ~/.vim/colors && cd ~/.vim/colors && wget https://raw.githubusercontent.co
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cd ~/.vim && wget https://raw.githubusercontent.com/wdvio/setup-public/master/plugins.vim
 vi +PluginInstall +qall && cd
+
 ```
