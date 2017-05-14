@@ -15,6 +15,8 @@ vi +PluginInstall +qall && cd && clear
 ```
 sudo apt-get install zsh
 echo ". ~/.aliases" >> ~/.zshrc
+echo "export PATH=\"$HOME/.composer/vendor/bin:$PATH\"" >> ~/.zshrc
+echo "export PATH=\"$HOME/usr/local/bin:$PATH\"" >> ~/.zshrc
 echo "alias wdir=\"cd /var/www\"" > ~/.aliases
 ```
 
