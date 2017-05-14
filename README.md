@@ -1,5 +1,6 @@
 # setup-public
 
+### vi, plugins, colorscheme 
 ```
 mkdir ~/.vim && cd ~/
 wget https://raw.githubusercontent.com/wdvio/setup-public/master/.vimrc
@@ -10,13 +11,15 @@ vi +PluginInstall +qall && cd && clear
 
 ```
 
-### zsh & tmux
-
+### zsh
 ```
 sudo apt-get install zsh
 echo ". ~/.aliases" >> ~/.zshrc
 echo "alias wdir=\"cd /var/www\"" > ~/.aliases
+```
 
+### tmux
+```
 sudo apt-get install tmux
 <CTRL+b>
 C - new window
