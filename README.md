@@ -9,3 +9,15 @@ cd ~/.vim && wget https://raw.githubusercontent.com/wdvio/setup-public/master/pl
 vi +PluginInstall +qall && cd && clear
 
 ```
+
+### tmux
+
+```
+sudo apt-get install tmux
+
+<CTRL+b>
+C - new window
+, - rename window
+p - previous; n - next
+w - list windows
+```
