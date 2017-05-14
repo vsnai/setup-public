@@ -14,6 +14,7 @@ vi +PluginInstall +qall && cd && clear
 
 ```
 sudo apt-get install zsh
+echo ". ~/.aliases" >> ~/.zshrc
 echo "alias wdir=\"cd /var/www\"" > ~/.aliases
 
 sudo apt-get install tmux
