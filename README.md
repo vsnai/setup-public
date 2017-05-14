@@ -10,11 +10,13 @@ vi +PluginInstall +qall && cd && clear
 
 ```
 
-### tmux
+### zsh & tmux
 
 ```
-sudo apt-get install tmux
+sudo apt-get install zsh
+echo "alias wdir=\"cd /var/www\"" > ~/.aliases
 
+sudo apt-get install tmux
 <CTRL+b>
 C - new window
 , - rename window
