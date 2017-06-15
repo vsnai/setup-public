@@ -87,3 +87,13 @@ git checkout paylink
 git rebase SP-11921
 git push
 ```
+
+### git (updating 'paylink' from 'master')
+```
+git clone repo
+
+git checkout paylink
+git rebase master
+git rebase origin/paylink
+git push
+```
