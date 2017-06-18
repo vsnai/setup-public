@@ -20,6 +20,13 @@ echo "export PATH=\"$HOME/usr/local/bin:$PATH\"" >> ~/.zshrc
 echo "alias wdir=\"cd /var/www\"" > ~/.aliases
 ```
 
+```
+sudo yum install zsh
+chsh -s /bin/zsh ec2-user
+
+[B-k]
+```
+
 ### tmux
 ```
 sudo apt-get install tmux
