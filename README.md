@@ -39,6 +39,8 @@ w - list windows
 
 ### git
 ```
+vi ~/.bash_aliases
+
 alias l="git log --oneline --graph"
 alias gs="git status"
 alias ga="git add ."
@@ -47,4 +49,6 @@ alias gb="git branch"
 alias gch="git checkout"
 alias gchm="git checkout master"
 alias gr="git rebase"
+
+source ~/.bashrc
 ```
